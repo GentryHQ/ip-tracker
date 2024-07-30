@@ -1,0 +1,11 @@
+@use "~/assets/css/variables.scss" as v;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: v.$ff;
+}
+
