@@ -119,11 +119,10 @@
 			}
 			IpApiData.value = await response.json();
 		} catch (err) {
-			console.error(err);
+			throw err;
 		}
 	};
 
-	console.log(IpApiData.value);
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,5 @@
 <template>
 	<div ref="mapContainer" class="map-container" id="map"></div>
-	<img src="../assets/icon-location.svg" alt="" />
 </template>
 
 <script setup>
